@@ -8,7 +8,7 @@ name: build-publish
 
 on:
   push:
-    branches: [main]
+    branches: [main, fork-ci-python-311]
   pull_request:
     branches: [main]
   release:
